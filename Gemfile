@@ -40,12 +40,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'better_errors', '~> 2.5', '>= 2.5.1'
 #KATE ADDED: css based on flexbox
 gem 'bulma', '~> 0.1.0'
+gem "bulma-rails", "~> 0.7.5"
 
 #KATE ADDD: simple form
 gem 'simple_form', '~> 4.1'
 
 #KATE ADD GUARD
-
+gem 'guard', '~> 2.15'
+gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require:false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -62,6 +64,7 @@ group :development do
   #KATE ADDED
   gem 'guard', '~> 2.15'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+    gem 'better_errors', '~> 2.5', '>= 2.5.1'
   
 end
 
