@@ -6,7 +6,7 @@ class CreatePosts < ActiveRecord::Migration[5.2]
       t.string :sector
       t.string :region
       t.string :type
-      t.int :user_id
+      t.integer :user_id
 
       t.timestamps
     end
